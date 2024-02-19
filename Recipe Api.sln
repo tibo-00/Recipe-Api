@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe Api", "Recipe Api\Recipe Api.csproj", "{E50B4DFA-CC01-4A4E-94B3-44CE32764BF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{D8FE2A37-A5BD-4708-BB2B-706ECE25C4F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{7FB817D6-1248-408A-948C-848388A39DEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E50B4DFA-CC01-4A4E-94B3-44CE32764BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50B4DFA-CC01-4A4E-94B3-44CE32764BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50B4DFA-CC01-4A4E-94B3-44CE32764BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50B4DFA-CC01-4A4E-94B3-44CE32764BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FE2A37-A5BD-4708-BB2B-706ECE25C4F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FE2A37-A5BD-4708-BB2B-706ECE25C4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FE2A37-A5BD-4708-BB2B-706ECE25C4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FE2A37-A5BD-4708-BB2B-706ECE25C4F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB817D6-1248-408A-948C-848388A39DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB817D6-1248-408A-948C-848388A39DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB817D6-1248-408A-948C-848388A39DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB817D6-1248-408A-948C-848388A39DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68F48DE2-EA41-4689-9F48-20888ED9E8F7}
+	EndGlobalSection
+EndGlobal

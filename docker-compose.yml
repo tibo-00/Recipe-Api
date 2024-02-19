@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+ db:
+   image: mcr.microsoft.com/mssql/server
+   environment:
+     SA_PASSWORD: "mssql"
+     ACCEPT_EULA: "Y"
+   ports:
+     - 1433:1433
+ recipeapi:
+   image: ${DOCKER_REGISTRY-}recipeapi
+   build:
+     context: .
+     dockerfile: Recipe Api/Dockerfile
+ test:
+   image: ${DOCKER_REGISTRY-}test
+   build:
+     context: ./Test
+     dockerfile: Dockerfile
+   depends_on:
+     - recipeapi
+
